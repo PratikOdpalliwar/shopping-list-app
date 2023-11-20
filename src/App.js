@@ -68,7 +68,6 @@ setTotalItemsQuantity(totalItemsQuantity)
     placeholder='Add a Shopping Item' 
     onChange={(event)=>{setInputValue(event.target.value)}} />
     <i class="fa-solid fa-plus" 
-    // onClick={(inputValue === "") ? (alert("Please Enter A Shopping Item")) : (handleAddButtonClick())} 
     onClick={()=>handleAddButtonClick()}
       ></i>
    </div>

@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  height: 500px;
+  width: 400px;
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.search-box{
+  height: 80px;
+  width: 400px;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+input{
+  height: 30px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+.shopping-item-container{
+  height: 100%;
+  width: 98%;
+  background-color: rgb(255, 255, 108);
+  boredr :2px solid green;;
+} 
+
+.shopping-item{
+  height: 30px;
+  width: 350px;
+  border: 1px solid black;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+}
