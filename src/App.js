@@ -81,7 +81,7 @@ setTotalItemsQuantity(totalItemsQuantity)
 {item.isSelected ? ( 
 <>
 <span><i class="fa-regular fa-circle-check"></i></span>
-<span className="itemm">{item.itemName}</span>
+<span className="item">{item.itemName}</span>
 
 </>
 )
@@ -89,7 +89,7 @@ setTotalItemsQuantity(totalItemsQuantity)
 (
   <>
   <span><i class="fa-regular fa-circle"></i></span>
-<span className="itemm">{item.itemName}</span>
+<span className="item">{item.itemName}</span>
 
 </>
 )
